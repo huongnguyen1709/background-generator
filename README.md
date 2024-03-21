@@ -4,4 +4,4 @@ A simple Background-Generator that let you play with the gradient background and
 
 ![Alt text](/image.png 'Optional Title')
 
-[BackGround-Generator](https://huongnguyen1709.github.io/background-generator/)
+[Background-Generator](https://huongnguyen1709.github.io/background-generator/)
