@@ -4,8 +4,6 @@ var color2 = document.querySelector('.color2');
 const body = document.getElementById('gradient');
 const generateBtn = document.querySelector('.button-40');
 
-randomGradientBg();
-
 function randomHexColorCode() {
   let n = (Math.random() * 0xfffff * 1000000).toString(16);
   return '#' + n.slice(0, 6);
@@ -29,3 +27,4 @@ color1.addEventListener('input', setGradient);
 color2.addEventListener('input', setGradient);
 
 generateBtn.addEventListener('click', randomGradientBg);
+randomGradientBg();
